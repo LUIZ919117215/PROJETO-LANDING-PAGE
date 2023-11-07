@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/*  Todas as demaais mídia */
+
+/*  Typical Device Breakpoints
+-------------------------------
+Pequenas telas: 600px
+Celulares: de 600px até 780px
+Tablet: 780px até 992px 
+Descktop: 992px até 1200px 
+Grandes telas: acima de 1200px
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+:root {
+    --cor0: #ffffff;
+    --cor1: #EEE8EC;
+    --cor2: #9A9BDA;
+    --cor3: #8C52F1;
+    --cor4: #F3C44C;
+    --cor5: #7B5800;
+}
+
+header#cabecario {
+    height: 300px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3), var(--cor5));
+    
+}
+
+nav#prins {
+    display: flex;
+    justify-content: space-between;    
+}
+
+nav#prins > h1 {
+    margin-right: 12px;
+    display: flex;
+    color: var(--cor4);
+}
+
+nav#prins > h1::before {
+    content: '🚪';
+    
+}
+
+nav#prins > ul {
+    min-width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav#prins > ul > li {
+    margin-right: 25px;
+}
+
+nav#prins > ul > li > a {
+    color: var(--cor0);
+    text-decoration: none;
+}
+
+
+nav#prins > button {
+    height: 35px;
+    width: 90px;
+    background-color: yellow;
+    color: rgb(178, 108, 108);
+    border: 2px solid var(--cor0);
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 1px  rgba(113, 57, 57, 0.736);
+    font-weight: 600;
+    
+}
+
+div#apres {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+div#apres > h1, p {
+    margin-bottom: 15px;
+    color: var(--cor0);
+}
+
+main {
+    display: flex;
+}
+
+div#apres span {
+    color: yellow;
+}
+
+div#link {
+    display: flex;
+    justify-content: space-between;
+}
+
+div#link button {
+    height: 35px;
+    width: 125px;
+    background-color: yellow;
+    color: rgb(178, 108, 108);
+    border-radius: 10px;
+    border: 2px solid var(--cor0);
+    box-shadow: 0px 0px 0px 0px;
+    font-weight: 600;
+}
+
+div#link a {
+    color: var(--cor0);
+    text-decoration: none;
+}
+
+div#link a::before {
+    content: '▶️';
+}
+
+div#img {
+    height: 235px;
+    width: 300px;
+    overflow: visible;
+    background-color: var(--cor2);
+    border: 8px solid var(--cor0);
+    border-radius: 100px 100px 30px 30px;
+    position: relative;
+    top: 30px;
+    right: 12px;
+}
+
+div#img > img {
+    height: 250px;
+    position: relative;
+    bottom: 31px;
+}
+
+div#marcas {
+    height: 50px;
+    background-image: linear-gradient(to right, var(--cor0), var(--cor4), var(--cor5));
+}
+
+div#marcas img {
+    height: 50px;
+    margin: 0px 12px;
+}
