@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/*  Todas as demaais mídia */
+
+/*  Typical Device Breakpoints
+-------------------------------
+Pequenas telas: -360px
+Celulares: de 360px até 760px
+Tablet: 760px até 992px 
+Descktop: 992px até 1200px 
+Grandes telas: acima de 1200px
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* @media */
+
+:root {
+    --cor0: #ffffff;
+    --cor1: #EEE8EC;
+    --cor2: #9A9BDA;
+    --cor3: #8C52F1;
+    --cor4: #F3C44C;
+    --cor5: #7B5800;
+}
+
+header#cabecario {
+    background-color: var(--cor3);
+    padding: 20px 10vw 10px 10vw;
+}
+
+nav#prins {
+    display: flex;
+    justify-content: space-between;
+}
+nav#prins > h1 {
+    display: inline-block;
+    margin-right: 17px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: var(--cor4);
+}
+nav#prins > ul {
+    display: flex;  
+    list-style: none;
+    justify-content: space-around;
+    width: 50vw;
+}
+nav#prins a {
+    color: var(--cor0);
+    font-size: 6px;
+    text-decoration: none;
+}
+nav#prins  > button {
+    height: 20px;
+    width: 55px;
+    margin-top: 2px;
+    padding: 2px;
+    background-color: yellow;
+    color: red;
+    font-size: 7px;
+    font-weight: 700;
+    border-radius: 4px;
+    border: 2px solid pink;
+    
+}
+
+
+main {
+color: var(--cor0);
+}
+
+div#apres {
+    padding: 0px 15px;
+}
+
+div#apres > h1 {
+    /* margin: auto; */
+    width: 260px;
+    padding-top: 20px;
+    text-align: left;
+}
+div#apres span {
+    color: var(--cor4);
+}
+
+div#apres p {
+    width: 260px;
+    /* margin: auto; */
+    padding: 16px 0px;
+    padding-right: 70px;
+    font-size: 8px;
+    text-align: justify;
+}
+
+div#apres button {
+    margin-right: 9vw;
+    height: 20px;
+    width: 55px;
+    background-color: yellow;
+    color: red;
+    font-size: 7px;
+    font-weight: 700;
+    border-radius: 4px;
+    border: 2px solid pink;
+
+}
