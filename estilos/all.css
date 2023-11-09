@@ -30,7 +30,7 @@ Grandes telas: acima de 1200px
 
 header#cabecario {
     background-color: var(--cor3);
-    padding: 20px 10vw 10px 10vw;
+    padding: 20px 10vw 0px 10vw;
 }
 
 nav#prins {
@@ -74,21 +74,22 @@ main {
 color: var(--cor0);
 }
 
-div#apres {
+main > div#apres {
+    margin-bottom: 45px;
     padding: 0px 15px;
 }
 
-div#apres > h1 {
-    /* margin: auto; */
+main > div#apres > h1 {
     width: 260px;
+    /* margin: auto; */
     padding-top: 20px;
     text-align: left;
 }
-div#apres span {
+main > div#apres span {
     color: var(--cor4);
 }
 
-div#apres p {
+main > div#apres p {
     width: 260px;
     /* margin: auto; */
     padding: 16px 0px;
@@ -97,10 +98,10 @@ div#apres p {
     text-align: justify;
 }
 
-div#apres button {
+main > div#apres button {
     margin-right: 9vw;
     height: 20px;
-    width: 55px;
+    width: 75px;
     background-color: yellow;
     color: red;
     font-size: 7px;
@@ -109,3 +110,40 @@ div#apres button {
     border: 2px solid pink;
 
 }
+
+main > div#apres a {
+    color: var(--cor0);
+    text-decoration: none;
+    font-size: 7px;
+    
+}
+main > div#apres a::before {
+    content: '▶️';
+    margin: 5px;
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+    
+}
+main > div#img {
+    width: 70vw;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 250px;
+    background-color: #F3C44C;
+    border: 10px solid var(--cor0);
+    border-radius: 40px 40px 40px 40px;
+    overflow: visible;
+}
+main > div#img img {
+    height:400px;
+    width: 211px;
+}
+
+div#marcas {
+    margin-top: 20px;
+}
+
