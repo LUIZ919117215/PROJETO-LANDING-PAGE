@@ -1,0 +1,10 @@
+main {
+    display: flex;
+}
+main div#img {
+    height: 240px;
+    width: 210px;
+    border-radius: 100px 100px 40px 40px;
+    position: absolute;
+    inset: 20px 0px 300px 300px;
+}
