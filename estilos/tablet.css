@@ -1,0 +1,25 @@
+/* Tablets: 481px até 768px */
+
+
+header#cabecario
+
+main {
+    display: flex;
+    position: relative;
+}
+
+main div#apres {
+    width: 100%;
+}
+
+main div#apres h1 {
+    font-size: 240%;
+}
+
+main div#img {
+    height: 240px;
+    width: 45%;
+    border-radius: 100px 100px 40px 40px;
+    position: absolute;
+    inset: 95px 20px 0px 260px;
+}

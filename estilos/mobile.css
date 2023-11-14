@@ -4,11 +4,11 @@
 
 /*  Typical Device Breakpoints
 -------------------------------
-Pequenas telas: -360px
-Celulares: de 360px até 760px
-Tablet: 760px até 992px 
-Descktop: 992px até 1200px 
-Grandes telas: acima de 1200px
+Mobile: 320px até 480px
+Tablets: 481px até 768px
+Laptops: 769px até 1024px 
+Descktops: 1025px até 1200px 
+Grandes telas: acima de 1201px
 */
 * {
     margin: 0px;
@@ -28,8 +28,12 @@ Grandes telas: acima de 1200px
     --cor5: #7B5800;
 }
 
+body {
+    overflow: hidden;
+}
+
 nav#prins {
-    padding: 10px 7vw 0px 10vw;
+    padding: 10px 7vw 2px 10vw;
     background-color: var(--cor3);
     display: flex;
     justify-content: space-between;
@@ -38,8 +42,8 @@ nav#prins {
 nav#prins > h1 {
     display: inline-block;
     margin-right: 17px;
-    margin-top: 5px;
-    font-size: 12px;
+    margin-top: 2px;
+    font-size: 20px;
     color: var(--cor4);
 }
 nav#prins > ul {
@@ -50,17 +54,17 @@ nav#prins > ul {
 }
 nav#prins a {
     color: var(--cor0);
-    font-size: 6px;
+    font-size: 8px;
     text-decoration: none;
 }
 nav#prins  > button {
-    height: 20px;
-    width: 55px;
+    height: 27px;
+    width: 70px;
     margin-top: 2px;
     padding: 2px;
     background-color: yellow;
     color: red;
-    font-size: 7px;
+    font-size: 9px;
     font-weight: 700;
     border-radius: 4px;
     border: 2px solid pink;
@@ -69,16 +73,17 @@ nav#prins  > button {
 
 header#cabecario {
     background-color: var(--cor3);
-    padding: 20px 20vw 5px 10vw;
+    padding: 20px 10vw 5px 10vw;
 }
 
 
 main {
 color: var(--cor0);
+
 }
 
 main > div#apres {
-    margin-bottom: 45px;
+    margin: 0px 0px 45px 0px;
     padding: 0px 15px;
 }
 
@@ -129,20 +134,19 @@ main > div#apres a::before {
     
 }
 main > div#img {
-    width: 220px;
+    height: 240px;
+    width: 77%;
     margin: auto;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    height: 250px;
     background-color: var(--cor2);
     border: 10px solid var(--cor0);
-    border-radius: 40% 40% 40px 40px;
+    border-radius: 33% 33% 40px 40px;
     overflow: visible;
-    transform: translateX(4vw);
 }
 main > div#img img {
-    height:400px;
+    height:290px;
     width: 211px;
 }
 

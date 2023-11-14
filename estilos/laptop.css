@@ -1,0 +1,71 @@
+/* Laptops: 769px até 1024px  */
+
+
+nav#prins > h1 {
+    font-size: 27px;
+}
+
+nav#prins ul {
+    margin-top: 10px;
+}
+
+nav#prins a {
+    font-size: 17px;
+}
+
+nav#prins > button {
+    height: 40px;
+    width: 90px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+header#cabecario {
+    height: 476px;
+}
+
+main div#apres h1 {
+    width: 400px;
+    font-size: 60px;
+}
+
+main div#apres p {
+    width: 450px;
+    font-size: 16px;
+}
+
+main div#apres button {
+    height: 48px;
+    width: 170px;
+    margin-top: 20px;
+    margin-right: 3vw;
+    font-size: 16px;
+    border-radius: 13px;
+}
+
+main div#apres a {
+    font-size: 19px;
+}
+main div#apres a::before {
+    margin: 5px;
+    font-size: 40px;
+    position: relative;
+    top: 4px;
+}
+
+main div#img {
+    height: 380px;
+    width: 45%;
+    border-radius: 250px 250px 90px 90px;
+    position: absolute;
+    inset: 215px 20px 0px 460px;
+}
+
+main div#img img {
+    height: 540px;
+    width: 330px;
+}
+
+div#marcas {
+    height: 100px;
+}
+
