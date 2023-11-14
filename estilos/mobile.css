@@ -17,8 +17,6 @@ Grandes telas: acima de 1201px
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* @media */
-
 :root {
     --cor0: #ffffff;
     --cor1: #EEE8EC;
@@ -32,6 +30,7 @@ body {
     overflow: hidden;
 }
 
+/* ////////////////////////////////////////Seção 1:introdução */
 nav#prins {
     padding: 10px 7vw 2px 10vw;
     background-color: var(--cor3);
@@ -160,4 +159,5 @@ div#marcas img {
     margin: 5px 18px 5px 0px;
 }
 
+/* ////////////////////////////////////////Seção 2: Programas */
 
