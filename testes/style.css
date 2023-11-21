@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+section {
+    
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+
+    /* animation-name: fly;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-play-state: running; */
+    
+    animation: fly 2s linear 3s infinite alternate both running;
+
+}
+
+section:hover {
+
+}
+
+@keyframes fly {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(250%);
+    }
+}

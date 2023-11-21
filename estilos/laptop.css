@@ -1,5 +1,6 @@
 /* Laptops: 769px até 1024px  */
 
+/* ////////////////////////////////////////Seção 1:introdução */
 
 nav#prins > h1 {
     font-size: 27px;
@@ -69,3 +70,115 @@ div#marcas {
     height: 100px;
 }
 
+/* ////////////////////////////////////////Seção 2: Programas */
+
+section#saud div#title {
+    margin: 26px 0px 60px 16px;
+    font-size:20px;
+}
+
+
+section#saud menu {
+    height: 200px;
+    display: flex;
+}
+
+section#saud div.programs {
+    height: 178px;
+    width: 19.5vw;
+}
+section#saud div#d1 {
+    border-radius: 30px 0px 0px 30px;
+}
+section#saud div#d2 {
+    border-radius: 0px 0px 0px 0px;
+}
+section#saud div#d3 {
+    border-radius: 0px 0px 0px 0px;
+}
+section#saud div#d4 {
+    border-radius: 0px 30px 30px 0px;
+}
+
+section#saud div#d1:hover {
+    width: 19.5vw;
+    background-color: var(--cor4);
+    border-radius: 30px 30px 0px 0px;
+    transition-duration: 0.3s;
+    transform: translateY(-50px);
+}
+section#saud div#d2:hover {
+    width: 19.5vw;
+    background-color: var(--cor4);
+    border-radius: 30px 30px 0px 0px;
+    transition-duration: 0.3s;
+    transform: translateY(-50px);
+}
+section#saud div#d3:hover {
+    width: 19.5vw;
+    background-color: var(--cor4);
+    border-radius: 30px 30px 0px 0px;
+    transition-duration: 0.3s;
+    transform: translateY(-50px);
+}
+section#saud div#d4:hover {
+    width: 19.5vw;
+    background-color: var(--cor4);
+    border-radius: 30px 30px 0px 0px;
+    transition-duration: 0.3s;
+    transform: translateY(-50px);
+}
+
+ /* //////////////////////////////////////////Seção 3: Ajuda  */
+
+section#help {
+    display: flex;
+    flex-direction: row;
+}
+
+ section#help picture#window {
+    height: 350px;
+    width: 57%;
+    
+    position: relative;
+    top: 48px;
+}
+ section#help picture#window img {
+    height: 700px;
+    width: 320px;
+}
+
+section#help article {
+    margin-left: 6vw;
+}
+
+section#help article div#value h2 {
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+section#help article div#value p {
+    width: 80%;
+    font-size: 16px;
+}
+
+section#help article menu {
+    display: flex;
+    flex-direction: row;
+}
+section#help article menu > section {
+    display: flex;
+}
+
+section#help article menu div.option {
+    width: 180px;
+    margin-left: 10px;
+    padding: 30px 18px 20px;
+    background-color: var(--cor7);
+    border-radius: 18px;
+    outline: 2px solid white;
+}
+
+section#help article menu section div.option span {
+    bottom: 116px;
+}

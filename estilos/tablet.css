@@ -1,5 +1,6 @@
 /* Tablets: 481px até 768px */
 
+/* ////////////////////////////////////////Seção 1:introdução */
 
 header#cabecario
 
@@ -23,3 +24,37 @@ main div#img {
     position: absolute;
     inset: 95px 20px 0px 260px;
 }
+
+/* ////////////////////////////////////////Seção 2: Programas */
+
+section#saud div#d1:hover {
+    width: 340px;
+    background-color: var(--cor4);
+    border-radius: 30px 30px 0px 0px;
+    transition-duration: 0.3s;
+    transform: translateY(-50px);
+}
+section#saud div#d2:hover {
+    width: 340px;
+    background-color: var(--cor4);
+    border-radius: 30px 30px 0px 0px;
+    transition-duration: 0.3s;
+    transform: translateY(-50px);
+}
+section#saud div#d3:hover {
+    width: 340px;
+    background-color: var(--cor4);
+    border-radius: 30px 30px 0px 0px;
+    transition-duration: 0.3s;
+    transform: translateY(-50px);
+}
+section#saud div#d4:hover {
+    width: 340px;
+    background-color: var(--cor4);
+    border-radius: 30px 30px 0px 0px;
+    transition-duration: 0.3s;
+    transform: translateY(-50px);
+}
+
+ /* //////////////////////////////////////////Seção 3: Ajuda  */
+
