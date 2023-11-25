@@ -30,15 +30,15 @@ main div#apres h1 {
 }
 
 main div#apres p {
-    width: 440px;
+    width: 390px;
     font-size: 16px;
 }
 
 main div#apres button {
     height: 48px;
-    width: 170px;
+    width: 150px;
     margin-top: 20px;
-    margin-right: 3vw;
+    margin-right: .5vw;
     font-size: 16px;
     border-radius: 13px;
 }
@@ -58,7 +58,7 @@ main div#img {
     width: 45%;
     border-radius: 250px 250px 90px 90px;
     position: absolute;
-    inset: 290px 20px 0px 380px;
+    inset: 290px 20px 0px 360px;
 }
 
 main div#img img {
@@ -132,7 +132,7 @@ section#saud div#d4:hover {
  /* //////////////////////////////////////////Seção 3: Ajuda  */
 
 section#help {
-    background-color: blueviolet;
+    background-color: var(--cor0);
     display: flex;
     flex-direction: row;
 }
@@ -142,7 +142,7 @@ section#help {
     width: 57%;
     
     position: relative;
-    top: 48px;
+    top: 86px;
 }
  section#help picture#window img {
     height: 700px;
@@ -150,7 +150,7 @@ section#help {
 }
 
 section#help article {
-    margin-left: 6vw;
+    margin-left: 1vw;
 }
 
 section#help article div#value h2 {
