@@ -135,7 +135,7 @@ main > div#apres a::before {
     top: 4px;
     
 }
-main > div#img {
+main  div#img {
     height: 240px;
     width: 77%;
     margin: auto;
@@ -146,6 +146,7 @@ main > div#img {
     border: 10px solid var(--cor0);
     border-radius: 33% 33% 40px 40px;
     overflow: visible;
+    transform: translateX(23px);
 }
 main > div#img img {
     height:290px;
@@ -378,23 +379,62 @@ section#help article menu div.option p{
 /* /////////////////////////////////////////////////////Seção 4: Inicio */
 
 section#started {
+    margin: 35px 0px 40px;
     padding: 10px 7vw 2px 10vw;
 }
 
 section#started main {
+    height: 290px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--cor3);
+    margin: auto;
+    overflow: visible;
+    border: 11px solid white;
+    border-radius: 40px;
+    background-color: var(--cor3);
+    outline: 2px solid rgb(255, 255, 255);
+    box-shadow: -3px 3px 20px 2px rgba(0, 0, 255, 0.232);
 }
-section#started {
-    
+section#started main span.material-icons {
+    height: 37px;
+    width: 37px;
+    margin: 28px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    background-color: #5820b9;
+    border: 2px solid rgba(255, 255, 255, 0.518);
+    border-radius: 10px;
+    font-size: 23;
 }
-section#started {
-
+section#started main h2 {
+    margin-bottom: 9px;
+    text-align: center;
 }
-section#started {
-
+section#started main h2 > span {
+    color: var(--cor4);
 }
-section#started {
-
+section#started main p {
+    width: 96%;
+    font-size: 13px;
+    text-align: center;
+    line-height: 19px;
+}
+section#started main button {
+    height: 40px;
+    width: 120px;
+    margin-right: initial;
+    margin: 23px 0px 0px;
+    background-color: yellow;
+    color: red;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 2px solid pink;
 }
 
 

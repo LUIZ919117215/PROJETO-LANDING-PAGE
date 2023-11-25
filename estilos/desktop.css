@@ -1,1 +1,6 @@
 /* Descktops: 1025px até 1200px */
+
+main div#apres h1 {
+    width: 800px;
+    font-size: 60px;
+}

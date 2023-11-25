@@ -25,12 +25,12 @@ header#cabecario {
 }
 
 main div#apres h1 {
-    width: 400px;
-    font-size: 60px;
+    width: 66%;
+    font-size: 50px;
 }
 
 main div#apres p {
-    width: 450px;
+    width: 440px;
     font-size: 16px;
 }
 
@@ -58,7 +58,7 @@ main div#img {
     width: 45%;
     border-radius: 250px 250px 90px 90px;
     position: absolute;
-    inset: 215px 20px 0px 460px;
+    inset: 290px 20px 0px 380px;
 }
 
 main div#img img {
@@ -132,6 +132,7 @@ section#saud div#d4:hover {
  /* //////////////////////////////////////////Seção 3: Ajuda  */
 
 section#help {
+    background-color: blueviolet;
     display: flex;
     flex-direction: row;
 }
@@ -171,7 +172,8 @@ section#help article menu > section {
 }
 
 section#help article menu div.option {
-    width: 180px;
+    height: 136px;
+    width: 97%;
     margin-left: 10px;
     padding: 30px 18px 20px;
     background-color: var(--cor7);
@@ -182,3 +184,27 @@ section#help article menu div.option {
 section#help article menu section div.option span {
     bottom: 116px;
 }
+
+/* /////////////////////////////////////////////////////Seção 4: Inicio */
+
+section#started main {
+    height: 320px;
+}
+
+section#started main h2 {
+    font-size: 27px;
+}
+
+section#started main p {
+    font-size: 16px;
+}
+
+
+section#started main button {
+    height: 48px;
+    width: 170px;
+    margin: 20px 0px 0px;
+    font-size: 16px;
+    border-radius: 13px;
+}
+

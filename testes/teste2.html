@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p[id] {
+            background-color: red;
+        }
+        /* vale sem aspas tbm */
+        p[class="par-id"] {
+            background-color: rgba(149, 0, 255, 0.69)9
+        }
+
+        a[href ^=www] {
+            color: black;
+        }
+
+        a[href$= com] {
+            text-decoration: none;
+        }
+
+        a[href *= "mz"] {
+            margin-left: 8px;
+        }
+
+        input[type] {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Seletor pos atributo</h1>
+    <hr>
+    <p id="par-id">Paragráfo com id</p>
+    <p class="par-id">Paragráfo com class</p>
+
+    <hr>
+    <a href="www.google.ca.mz">Link para google.com <strong>WWW</strong></a><br>
+    <a href="google.com">Link para google sem <strong>WWW</strong></a><br>
+    <a href="www.mz.com">Link  que contém <strong>mz</strong></a>
+    <hr>
+    <input type="text" name="text" placeholder="texto">
+    <input type="password" placeholder="Senha">
+</body>
+</html>

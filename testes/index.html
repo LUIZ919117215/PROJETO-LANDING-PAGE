@@ -4,13 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+
+        #par ~ p {
+            background-color: brown;
+            width: 34;
+        }
+    </style>
 </head>
 <body>
-    <section>
-        <div id="d1"></div>
-        <div id="d2"></div>
-        <div id="d3"></div>
-    </section>
+    <h1>Seletor de irmao descendente ( + & ~ )</h1>
+    <hr>
+    <div id="div1">
+        <p>caldo</p>
+        <h1>caldo</h1>
+        <p id="par">Paragrafo Irmao</p>
+        <p>Paragrafo Irmao</p>
+        <h1>caldo</h1>
+        <p >Paragrafo <strong>uuuuuuuuu</strong>uIrmao</p>
+        <h1>caldo</h1>
+        <h1>caldo</h1>
+        <h1>caldo</h1>
+        <h1>caldo</h1>
+        <p>Paragrafo <strong>uuuuuuuuu</strong> Irmao</p>
+        <p>Paragrafo Irmao</p>
+
+        <div id="div2">
+            <p>Outros paragráfos</p>
+            <p>Outros paragráfos</p>
+            <h1>caldo</h1>
+            <p>Outros paragráfos</p>
+            <p>Outros paragráfos</p>
+            <p>Outros paragráfos</p>
+        </div>
+    </div>
 </body>
 </html>

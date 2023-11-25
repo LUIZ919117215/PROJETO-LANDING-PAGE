@@ -9,20 +9,25 @@ main {
     position: relative;
 }
 
-main div#apres {
+header#cabecario main div#apres {
     width: 100%;
 }
 
-main div#apres h1 {
+main > div#apres > h1 {
+    width: 70%;
     font-size: 240%;
+}
+
+main div#apres p {
+
 }
 
 main div#img {
     height: 240px;
-    width: 45%;
+    width: 51%;
     border-radius: 100px 100px 40px 40px;
     position: absolute;
-    inset: 95px 20px 0px 260px;
+    inset: 176px 20px 0px 210px;
 }
 
 /* ////////////////////////////////////////Seção 2: Programas */
