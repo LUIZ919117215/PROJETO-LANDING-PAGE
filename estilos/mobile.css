@@ -24,7 +24,7 @@ Grandes telas: acima de 1201px
     --cor3: #8C52F1;
     --cor4: #F3C44C;
     --cor5: #7B5800;
-    --cor6: #5C4B80;
+    --cor6: #402e62;
     --cor7: #EFE8F2;
 }
 
@@ -36,7 +36,7 @@ body {
 /* ////////////////////////////////////////Seção 1:introdução */
 
 nav#prins {
-    padding: 10px 7vw 2px 10vw;
+    padding: 10px 10vw 2px 10vw;
     background-color: var(--cor3);
     display: flex;
     justify-content: space-between;
@@ -299,7 +299,7 @@ section#saud p {
  /* //////////////////////////////////////////Seção 3: Ajuda  */
 
 section#help {
-    padding: 10px 7vw 2px 10vw;
+    padding: 10px 10vw 2px 10vw;
 
 }
 
@@ -346,10 +346,12 @@ section#help article menu div.option {
     outline: 2px solid white;
 }
 section#help article menu div.option:hover {
-    box-shadow: 16px -17px 13px 1px rgba(27, 27, 40, 0.232);
+    box-shadow:inset 0 0 19px 8px #ffffffc1, 16px -17px 13px 1px rgba(27, 27, 40, 0.232);
     transition-duration: .3s;
     transform: translate(-17px, 15px);
     transition-timing-function: ease;
+    border: 2px solid white;
+    
 }
 
 section#help article menu section div.option span {
@@ -380,7 +382,7 @@ section#help article menu div.option p{
 
 section#started {
     margin: 35px 0px 40px;
-    padding: 10px 7vw 2px 10vw;
+    padding: 10px 10vw 2px 10vw;
 }
 
 section#started main {
@@ -437,8 +439,72 @@ section#started main button {
     border: 2px solid pink;
 }
 
+/* //////////////////////////////////////////////////Seção 5: Menu */
 
+section#heal {
+    padding: 20px 10vw 5px 10vw;
+}
 
+section#heal article#recipe h2{
+    margin-bottom: 13px;
+    color: var(--cor6);
+}
+
+section#heal article#recipe p {
+    margin-bottom: 13px;
+    font-size: 13px;
+}
+
+section#heal article#recipe menu#rec {
+    height: 380px;
+    overflow: auto;
+}
+section#heal article#recipe menu#rec::-webkit-scrollbar {
+    width: 4px;
+    background-color: gainsboro;
+}
+section#heal article#recipe menu#rec::-webkit-scrollbar-track {
+    background-color: gainsboro;
+}
+
+section#heal article#recipe menu#rec::-webkit-scrollbar-thumb {
+    height: 2px;
+    background-color: #5820b9;
+} 
+
+section#heal article#recipe menu#rec .recs {
+    height: 77px;
+    width: 330px;
+    margin: 15px 0px 15px 0px;
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    color: var(--cor6);
+    background-color: var(--cor1);
+    border-radius: 24px;
+}
+
+section#heal article#recipe menu#rec .recs:hover {
+    border: 2px solid white;
+    box-shadow:inset 0 0 19px 8px #ffffffc1,
+     0 7px 12px -3px #96b4cc6c,
+     0 -7px 12px -3px #96b4cc6c;
+    transition-duration: .1s;
+    transition-timing-function: ease;
+}
+
+section#heal article#recipe menu#rec span {
+    height: 37px;
+    width: 37px;
+    margin-right: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8c6bf8;
+    color: white;
+    border-radius: 10px;
+    font-size: 23px;   
+}
 
 
 
