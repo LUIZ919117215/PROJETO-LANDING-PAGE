@@ -208,3 +208,66 @@ section#started main button {
     border-radius: 13px;
 }
 
+/* //////////////////////////////////////////////////Seção 5: Menu */
+
+section#heal {
+    display: flex;
+    flex-direction: row;
+}
+
+section#heal article#recipe h2 {
+    font-size: 27px;
+}
+
+section#heal article#recipe p {
+    font-size: 16px;
+}
+
+section#heal article#recipe menu#rec div.recs  {
+    width: 84%;
+    font-size: 12px;
+}
+
+section#heal section#try {
+    display: flex;
+    justify-content: end;
+}
+
+section#heal section#try div#bot button {
+    position: relative;
+    bottom: 34px;
+}
+
+section#heal section#try div.card {
+    height: 350px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    border-radius: 230px 230px 45px 45px;
+}
+
+section#heal section#try div.card > div {
+    height: 180px;
+    width: 15vw;
+}
+
+section#heal section#try div.card div img {
+    height: 140px;
+    width: 140px;
+}
+
+section#heal section#try div.card > h3 {
+    margin-top: 0;
+    font-size: 15px;
+}
+
+section#heal section#try div.card button {
+    height: 14%;
+    width: 68%;
+    font-size: 14px;
+    border-radius: 16px;
+    position: relative;
+    bottom: 3%;
+}
+
+

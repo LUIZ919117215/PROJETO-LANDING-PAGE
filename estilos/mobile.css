@@ -10,6 +10,9 @@ Laptops: 769px até 1024px
 Descktops: 1025px até 1200px 
 Grandes telas: acima de 1201px
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&family=Poppins:wght@500;800;900&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -547,9 +550,9 @@ section#heal section#try div.card {
 section#heal section#try div.card:hover {
     border: 2px solid white;
     box-shadow:inset 0 0 19px 8px #ffffffc1,
-    0 7px 17px -3px #96b4cc6c,
-    0 -7px 17px -3px #96b4cc6c;
-    transition-duration: 1s;
+    0 12px 17px -3px #96b4cc6c,
+    0 -12px 17px -3px #96b4cc6c;
+    transition-duration: .2s;
     transition-timing-function: ease;
 }
 

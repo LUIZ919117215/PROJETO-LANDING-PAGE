@@ -61,5 +61,35 @@ section#saud div#d4:hover {
     transform: translateY(-50px);
 }
 
- /* //////////////////////////////////////////Seção 3: Ajuda  */
+ /* //////////////////////////////////////////////Seção 3: Ajuda  */
+
+
+
+ /* //////////////////////////////////////////////Seção 5: Menu */
+
+section#heal section#try div.card {
+    height: 70vw;
+    border-radius: 170px 170px 45px 45px;
+}
+
+section#heal section#try div.card > div {
+    height: 36vw;
+    margin-top: 1vw;
+    border-radius: 170px 170px 45px 45px;
+}
+
+section#heal section#try div.card > h3 {
+    margin-top: -4vw;
+    font-size: 3vw;
+}
+
+section#heal section#try div.card button {
+    height: 11%;
+    width: 70%;
+    font-size: 14px;
+    border-radius: 16px;
+    position: relative;
+    bottom: 6%;
+}
+
 
