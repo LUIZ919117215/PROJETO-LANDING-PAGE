@@ -349,7 +349,8 @@ section#help article menu div.option {
     outline: 2px solid white;
 }
 section#help article menu div.option:hover {
-    box-shadow:inset 0 0 19px 8px #ffffffc1, 16px -17px 13px 1px rgba(27, 27, 40, 0.232);
+    box-shadow:inset 0 0 19px 8px #ffffffc1,
+    16px -17px 13px 1px #1b1b283b;
     transition-duration: .3s;
     transform: translate(-17px, 15px);
     transition-timing-function: ease;
@@ -592,9 +593,92 @@ section#heal section#try div.card button {
     border: 2px solid pink;
 }
 
+/* //////////////////////////////////////Seção 6: Testemunhos */
+
+section#tes {
+    margin-top: 24px;
+    padding: 10px 10vw 2px 10vw;
+    display: flex;
+}
+
+section#tes picture#img2 {
+    height: 240px;
+    width: 77%;
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: var(--cor2);
+    border: 10px solid var(--cor0);
+    border-radius: 33% 33% 40px 40px;
+    overflow: visible;
+    box-shadow: -3px 3px 20px 2px rgba(0, 0, 255, 0.232);
+}
+
+section#tes div#quote h2{
+    margin-bottom: 13px;
+    color: var(--cor6);
+}
+
+section#tes div#quote p {
+    margin-bottom: 13px;
+    font-size: 13px;
+}
+
+section#tes div#quote div#testim {
+    position: relative;
+    margin-top: 23px;
+    padding: 30px 18px 20px;
+    background-color: var(--cor7);
+    border-radius: 18px;
+    outline: 2px solid white;
+}
+
+section#tes div#quote div#testim span {
+    position: relative;
+    bottom: 44px;
+    height: 37px;
+    width: 37px;
+    margin-bottom: -37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8c6bf8;
+    color: white;
+    border-radius: 10px;
+    border: #fff;
+}
+
+section#tes div#quote div#testim q {
+    font-size: 13px;
+}
+
+section#tes div#quote div#testim div#cred {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section#tes div#quote div#testim strong {
+    margin: 17px 0;
+    font-size: 15px;
+    color: #8c6bf8;
+}
 
 
+section#tes div#quote div#testim p {
+    margin-top: 4px;
+}
 
+section#tes div#quote div#testim div button {
+    margin-top: 20px;
+}
+section#tes div#quote div#testim button {
+    height: 25px;
+    width: 25px;
+    margin-left: 12px;
+    border-radius: 50%;
+}
 
 
 

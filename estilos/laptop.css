@@ -270,4 +270,38 @@ section#heal section#try div.card button {
     bottom: 3%;
 }
 
+/* //////////////////////////////////////Seção 6: Testemunhos */
+
+section#tes {
+    display: flex;
+    flex-direction: row;
+}
+
+section#tes  picture#img2 {
+    height: 350px;
+    width: 53vw;
+    margin-right: 2vw;
+    
+    position: relative;
+    top: 47px;
+}
+ section#tes picture#img2 img {
+    height: 700px;
+    width: 320px;
+}
+
+section#tes div#quote {
+    width: 55vw;
+}
+
+section#tes div#quote h2 {
+    font-size: 27px;
+}
+section#tes div#quote p {
+    font-size: 16px;
+}
+
+section#tes div#testim q {
+    font-size: 16px;
+}
 
