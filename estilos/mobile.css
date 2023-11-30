@@ -94,7 +94,6 @@ main > div#apres {
 
 main > div#apres > h1 {
     width: 260px;
-    /* margin: auto; */
     padding-top: 20px;
     text-align: left;
 }
@@ -136,12 +135,12 @@ main > div#apres a::before {
     font-size: 20px;
     position: relative;
     top: 4px;
-    
 }
 main  div#img {
     height: 240px;
     width: 77%;
     margin: auto;
+    margin-left: 4vw;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;

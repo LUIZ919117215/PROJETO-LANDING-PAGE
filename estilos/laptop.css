@@ -58,7 +58,7 @@ main div#img {
     width: 45%;
     border-radius: 250px 250px 90px 90px;
     position: absolute;
-    inset: 290px 20px 0px 360px;
+    inset: 290px 20px 0px 53%;
 }
 
 main div#img img {
@@ -168,6 +168,7 @@ section#help article menu {
     flex-direction: row;
 }
 section#help article menu > section {
+    width: 49%;
     display: flex;
 }
 
