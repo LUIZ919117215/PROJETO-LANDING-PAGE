@@ -273,6 +273,7 @@ section#heal section#try div.card button {
 /* //////////////////////////////////////Seção 6: Testemunhos */
 
 section#tes {
+    margin-bottom: 9%;
     display: flex;
     flex-direction: row;
 }
@@ -305,3 +306,38 @@ section#tes div#testim q {
     font-size: 16px;
 }
 
+/* //////////////////////////////////////Seção 7: Contatos */
+
+footer#final {
+
+}
+footer#final > div {
+    display: flex;
+    justify-content: start;
+}
+footer#final aside {
+    margin-right: 4vw;
+    width: 30vw;
+}
+footer#final aside p {
+    width: 180px;
+    font-size: 16px;
+}
+
+footer#final article#contato {
+    width: 179%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+footer#final article#contato section.items {
+    
+}
+
+footer#final article#contato section.items li a {
+    font-size: 16px;
+}
+
+footer#final footer#fim p, div > p{
+    font-size: 16px;
+}

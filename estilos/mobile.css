@@ -680,5 +680,66 @@ section#tes div#quote div#testim button {
     border-radius: 50%;
 }
 
+/* /////////////////////////////////////////Seção 7: Contatos */
+
+footer#final {
+    background-color: hsl(324, 12%, 95%);
+    margin-top: 45px;
+    padding: 5px 10vw 2px 10vw;
+    box-shadow: 0 3px 20px 2px #0000ff3b,
+    inset 0 0 50px 40px #ffffffc1;
+}
+
+footer#final aside h1 {
+    margin-top: 30px;
+    color: #8c6bf8;
+    font-size: 19px;
+}
+
+footer#final aside p {
+    margin: 12px 0;
+    font-size: 13px;
+}
+
+footer#final article#contato {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer#final article#contato section.items h3 {
+    color: var(--cor6);
+}
+footer#final article#contato section.items ul {
+    list-style: none;
+}
+footer#final article#contato section.items li {
+    margin-bottom: 12px;
+}
+footer#final article#contato section.items a {
+    color: var(--cor6);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+footer#fim {
+    margin: 23px 0 17px;
+    display: flex;
+    justify-content: space-between;
+}
+footer#fim p {
+    font-size: 10px;
+}
+
+footer#fim div {
+    display: flex;
+    justify-content: space-between;
+}
+footer#fim div > p:nth-child(1) {
+    margin-right: 3vw;
+}
+
+
+
+
+
 
 
