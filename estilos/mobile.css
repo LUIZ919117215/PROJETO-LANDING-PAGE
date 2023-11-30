@@ -11,7 +11,6 @@ Descktops: 1025px até 1200px
 Grandes telas: acima de 1201px
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&family=Poppins:wght@500;800;900&display=swap');
 
 * {
     margin: 0px;
@@ -170,7 +169,7 @@ div#marcas img {
 section#saud {
     height: 400px;
     padding: 20px 10vw 5px 10vw;
-    background-color: var(--cor0);
+    background-color: #ffffff;
 }
 
 section#saud div#title {
@@ -186,6 +185,11 @@ section#saud div#title {
 section#saud div#title h2 {
     color: var(--cor6);
 }
+section#saud section#btn {
+    display: flex;
+    flex-direction: row;
+}
+
 section#saud section#btn button {
     background-color: white;
     color: #5820b9;
@@ -511,7 +515,7 @@ section#heal article#recipe menu#rec span {
 
 section#heal section#try {
     margin-top: 40px;
-    background-color: var(--cor0);
+    background-color: ;
 }
 
 section#heal section#try div#bot {
