@@ -21,6 +21,7 @@ section.container {
 }
 
 div {
+    background-color: blue;
     border: 2px solid burlywood;
 }
 
